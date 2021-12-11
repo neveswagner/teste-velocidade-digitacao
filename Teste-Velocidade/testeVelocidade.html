@@ -1,0 +1,45 @@
+<!doctype html>
+  <html>
+  <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <link rel="stylesheet" type="text/css" href="testeVelocidade.css"/> 
+    <title>Velocidade De Digitação</title>
+  
+  </head>
+
+      <div class="container">
+          <h1>Teste a velocidade da sua digitação</h1>
+          <br>
+            <form name="form_main">
+              <div>
+                <p>Num dia de verão, estava na praia, observando duas crianças brincando na areia. <br />
+                Elas trabalhavam muito, construindo um castelo de areia, com torres, passarelas <br />
+                e passagens internas. Quando estavam quase acabando, veio uma onda e destruiu tudo, <br />
+                reduzindo o castelo a um monte de areia e espuma. Achei que, depois de tanto <br />
+                esforço e cuidado, as crianças cairiam no choro. Mas tive uma surpresa. Em vez de <br />
+                chorar, correram pela praia, fugindo da água, rindo de mãos dadas e começaram a <br />
+                construir outro castelo. <br />
+                Compreendi que havia aprendido uma grande lição gastamos muito tempo da nossa vida <br />
+                construindo alguma coisa e, mais cedo ou mais tarde, uma onda poderá vir e destruir <br />
+                tudo o que levamos tanto tempo para construir. Mas quando isso acontecer <br />
+                (e aqui eu digo, se isso acontecer), somente aquele que tem as mãos de alguém para segurar, <br />
+                será capaz de sorrir!!! <br />
+                Só o que permanece é a amizade, o amor e o carinho. O resto é feito de areia. <br />
+              </p>
+            </div>
+            <div>
+              <span id="hora">00</span>:<span id="minuto">00</span>:<span id="segundo">00</span>:<span id="milsegundos">000</span>
+              <br>
+              <button type="button" class="btn btn-primary btn-sm" name="pause">Pausar / Parar</button>
+              <button type="button" class="btn btn-primary btn-sm" name="reset">Resetar</button>
+              <br> <br>
+              <textarea id="texto"  onkeydown="start()" rows="20" placeholder="Comece a digitar para iniciar o cronometro..."></textarea>
+            </div>
+          </form>
+      </div>
+</html>
+
+<script type="text/javascript" src="testeVelocidade.js"></script>
